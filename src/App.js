@@ -1,6 +1,7 @@
 import "./styles.css";
 var color = "blue";
-var headingText = "welcome";
+var userName = prompt("give me your name");
+var headingText = "welcome " + userName;
 export default function App() {
   return (
     <div className="App">
